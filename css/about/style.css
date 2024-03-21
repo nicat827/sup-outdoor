@@ -3453,12 +3453,7 @@ Theme name: SupOutdoor
     max-width: 387px;
     width: 100%;
 }
-.team  .team-card span {
-    color: #00C2E2;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 100px;
-}
+
 .team .team-card p {
     font-size: 16px;
     font-weight: 400;
@@ -3472,6 +3467,10 @@ Theme name: SupOutdoor
 .team .team-card span {
     display: flex;
     align-items: center;
+    color: #00C2E2;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 70px;
     justify-content: center;
 }
 .team .team-card:first-child {
@@ -3509,6 +3508,7 @@ Theme name: SupOutdoor
     top: 0;
     background: -webkit-linear-gradient( #00caeb, #0192aa );
     background-clip: text;
+    font-family: 'Euclid Circular A';
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 0;
@@ -4454,6 +4454,9 @@ Theme name: SupOutdoor
 	}
     .team .team-card span {
         font-size: 45px !important;
+    }
+    .club-item h2 {
+        font-size: 26px !important;
     }
 }
 
