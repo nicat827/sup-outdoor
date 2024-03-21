@@ -7,62 +7,23 @@
 	<title>Локаций и Маршруты</title>
 	<link rel="stylesheet" href="./css/contactsAndRoutes.css">
 	<link rel="stylesheet" href="./css/layout.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-	<script src="../script.js" defer></script>
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="./scripts/rorutes.js" defer></script>
 </head>
 
 <body>
 
 	<div class="app">
 
-		<header class="header">
-			<div class="header__container">
-
-				<a href="/index.html" class="header__logo">
-					<img src="./images/logo.svg" alt="Логотип">
-				</a>
-
-				<ul class="header__menu">
-					<li class="header__list">
-						<a href="" class="header__link">О нас</a>
-					</li>
-					<li class="header__list">
-						<a href="" class="header__link">Услуги и цены</a>
-					</li>
-					<li class="header__list">
-						<a href="/html/routes.html" class="header__link">Локации и маршруты</a>
-					</li>
-					<li class="header__list">
-						<a href="" class="header__link">Галерея</a>
-					</li>
-					<li class="header__list">
-						<a href="" class="header__link">Подарочный сертификат</a>
-					</li>
-					<li class="header__list">
-						<a href="/index.html" class="header__link">Контакты</a>
-					</li>
-					<li class="header__list">
-						<a href="/html/ask.html" class="header__link">Вопросы</a>
-					</li>
-				</ul>
-
-				<a href="/clients" class="header__button">Онлайн связь</a>
-
-				<button class="header__burger"><span></span></button>
-
-			</div>
-		</header>
-
 		<main class="main">
-
 			<section class="routes">
 				<div class="routes__container">
 					<h2 class="routes__title title">Локации и Маршруты</h2>
 					<div class="routes__bottom">
 						<div class="routes__links">
-							<a href="" class="routes__link">Серебряный Бор</a>
-							<a href="" class="routes__link">Архангельское</a>
+							<a href="#location1" class="routes__link">Серебряный Бор</a>
+							<a href="#location2" class="routes__link">Архангельское</a>
 						</div>
 						<p class="routes__subtitle">Протяженность маршрутов варьируется от 5 до 10 км, маршруты различаются по тематике и уровню сложности. <span>У каждого маршрута точки старта и финиша совпадают</span>, выплываем и приплываем в одном месте.</p>
 					</div>
@@ -82,21 +43,22 @@
 							</div>
 							<div class="scrolling__slide scrolling__slide-small swiper-slide">
 								<img src="./images/contacts/Routes/Slider/2.jpeg" alt="Изображение фотографий слайдера">
+
 							</div>
 						</div>
 						<div class="scrolling__pagination swiper-pagination"></div>
 					</div>
 					<p class="scrolling__subtitle padding-column">У нас две основные sup станции. Флагманская станция Sup Outdoor разместилась на территории Серебренного Бора, пляж номер 3. Загородная станция Sup Outdoor расположена в 5 км от МКАД по Новорижскому шоссе, возле Усадьбы «Архангельское». <span>Выбирайте удобную для Вас локацию и приезжайте к нам.</span></p>
 					<div class="scrolling__links padding-column">
-						<a href="" class="scrolling__link">серебряный бор</a>
-						<a href="" class="scrolling__link">архангельское</a>
+						<a href="#location1" class="scrolling__link">серебряный бор</a>
+						<a href="#location2" class="scrolling__link">архангельское</a>
 					</div>
 				</div>
 			</section>
 
-			<article class="wave null">Пустой текст для семантики, который не отображается</article>
+			<img src="./images/wave.png" style="width: 100%;" />
 
-			<section class="location">
+			<section class="location" id="location1">
 				<div class="location__container">
 					<div class="location__top">
 						<p class="location__suptitle">Локация</p>
@@ -143,8 +105,8 @@
 							<div class="places__content">
 								<p class="places__description">Великолепный способ начать день активно и полезно для здоровья. Утреннее занятие начинается с интенсивной разминки и зарядки, что позволит вам проснуться и зарядиться энергией на весь день. Маршрут утренней прогулки проходит от пляжа №3 до Бездонного озера.</p>
 								<i class="places__note">Перейдите по кнопке “забронировать”, чтобы ознакомиться с расписанием.</i>
-								<a href="" class="places__link">забронировать</a>
 							</div>
+							<a href="" class="places__link">забронировать</a>
 						</article>
 
 						<article class="places__item places__item-2">
@@ -157,8 +119,8 @@
 							<div class="places__content">
 								<p class="places__description">Визитная карточка нашей школы. Оптимальный маршрут для новичков и для тех, кто предпочитает неспешные прогулки. Наградой за преодоление маршрута будет незабываемый вид Живописного моста, который поразит вас своей красотой и величием в любое время суток.</p>
 								<i class="places__note">Перейдите по кнопке “забронировать”, чтобы ознакомиться с расписанием.</i>
-								<a href="" class="places__link">забронировать</a>
 							</div>
+							<a href="" class="places__link">забронировать</a>
 						</article>
 
 						<article class="places__item places__item-3">
@@ -171,8 +133,9 @@
 							<div class="places__content">
 								<p class="places__description">Самый красивый и незабываемый экомаршрут. Настоящий природный оазис в сердце гигантского города! Чистейший воздух, прозрачная вода, вековые сосны и поля водяных лилий произведут неизгладимое впечатление на всех участников прогулки.</p>
 								<i class="places__note">Перейдите по кнопке “забронировать”, чтобы ознакомиться с расписанием.</i>
-								<a href="" class="places__link">забронировать</a>
 							</div>
+							<a href="" class="places__link">забронировать</a>
+
 						</article>
 
 						<article class="places__item places__item-4 places__item-big">
@@ -188,9 +151,6 @@
 									<i class="places__note">Перейдите по кнопке “забронировать”, чтобы ознакомиться с расписанием.</i>
 									<a href="" class="places__link">забронировать</a>
 								</div>
-							</div>
-							<div class="places__image">
-								<img src="././images/contacts/Routes/Places/4.jpeg" alt="Изображение карточки">
 							</div>
 						</article>
 
@@ -212,9 +172,9 @@
 				</div>
 			</section>
 
-			<article class="wave null">Пустой текст для семантики, который не отображается</article>
+			<img src="./images/wave.png" style="width: 100%;" />
 
-			<section class="location">
+			<section class="location" id="location2">
 				<div class="location__container">
 					<div class="location__top">
 						<p class="location__suptitle">Локация</p>

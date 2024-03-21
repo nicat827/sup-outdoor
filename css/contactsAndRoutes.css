@@ -1674,6 +1674,7 @@
   }
   .places__items {
     display: grid;
+    grid-auto-flow: row;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
@@ -1688,10 +1689,11 @@
     }
   }
   .places__item {
-    outline: 3px solid #00c2e2;
     border-radius: 10px;
-    color: #00c2e2;
     overflow: hidden;
+    position: relative;
+    max-height: 500px;
+    min-height: 500px;
   }
   @supports (padding-top: clamp( 1.25rem , 1.1009687034rem  +  0.7451564829vw , 1.5625rem )) {
     .places__item {
@@ -1744,51 +1746,32 @@
       grid-column: auto;
     }
   }
-  .places__item:hover {
-    background-repeat: no-repeat;
-    background-size: cover;
-    outline: none;
-    color: #ffffff;
+ 
+  .places__item-1 {
+    background-image: url("../images/contacts/Routes/Places/1.png");
+    color: white !important;
   }
-  .places__item:hover .places__day {
-    border-color: #ffffff;
+  .places__item-2 {
+    background-image: url("../images/contacts/Routes/Places/2.png");
+    color: white !important;
   }
-  .places__item:hover .places__name,
-  .places__item:hover .places__description,
-  .places__item:hover .places__note {
-    color: #ffffff;
+  .places__item-3 {
+    background-image: url("../images/contacts/Routes/Places/3.png");
+    color: white !important;
   }
-  .places__item-1:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/Routes/Places/1.jpeg");
+  .places__item-4 {
+    background-image: url("../images/contacts/Routes/Places/4.png");
+    color: white !important;
+    max-height: 500px;
   }
-  .places__item-2:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/Routes/Places/2.jpeg");
-  }
-  .places__item-3:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/Routes/Places/3.jpeg");
-  }
-  .places__item-4:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/Routes/Places/4.jpeg");
-  }
-  .places__item-4:hover .places__image {
-    display: none;
-  }
-  .places__item-5:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/Routes/Places/5.jpeg");
-  }
-  .places__item-6:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/Routes/Places/6.jpeg");
-  }
-  .places__item-7:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/Routes/Places/7.jpeg");
-  }
-  .places__item-8:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/Routes/Places/8.jpeg");
+  .places__item-5 {
+    background-image: url("../images/contacts/Routes/Places/5.png");
+    color: white !important;
   }
   .places__day {
     display: inline-block;
     padding: 5px 32px;
-    border: 1px solid #00c2e2;
+    border: 2px solid white;
     border-radius: 50px;
   }
   @supports (font-size: clamp( 0.625rem , 0.5653874814rem  +  0.2980625931vw , 0.75rem )) {
@@ -1822,8 +1805,10 @@
     }
   }
   .places__name {
-    color: #5b5b5b;
+    color: #fff;
     font-weight: 600;
+    font-size: 100%;
+    width: 100%;
     text-transform: uppercase;
   }
   @supports (font-size: clamp( 1.25rem , 1.0711624441rem  +  0.8941877794vw , 1.625rem )) {
@@ -1893,7 +1878,8 @@
     }
   }
   .places__description {
-    color: rgba(0, 0, 0, 0.7);
+    font-size: 14px;
+    color: white;
   }
   @supports (font-size: clamp( 0.75rem , 0.6903874814rem  +  0.2980625931vw , 0.875rem )) {
     .places__description {
@@ -1925,20 +1911,16 @@
       margin-bottom: calc(1.875rem + 0.3125 * (100vw - 20rem) / 41.9375);
     }
   }
+
+  
   .places__note {
-    color: rgba(0, 0, 0, 0.7);
+    color: white;
     display: block;
+    font-size: 14px;
+    margin-bottom: 15px ;
   }
-  @supports (margin-bottom: clamp( 1.875rem , 1.7259687034rem  +  0.7451564829vw , 2.1875rem )) {
-    .places__note {
-      margin-bottom: clamp( 1.875rem , 1.7259687034rem  +  0.7451564829vw , 2.1875rem );
-    }
-  }
-  @supports not (margin-bottom: clamp( 1.875rem , 1.7259687034rem  +  0.7451564829vw , 2.1875rem )) {
-    .places__note {
-      margin-bottom: calc(1.875rem + 0.3125 * (100vw - 20rem) / 41.9375);
-    }
-  }
+ 
+
   .places__link {
     display: inline-block;
     color: #ffffff;
@@ -1947,6 +1929,8 @@
     letter-spacing: 5%;
     text-transform: uppercase;
     border-radius: 50px;
+    position: absolute;
+    bottom: 19px;
     background: #00c2e2;
     transition: background-color 0.3s ease 0s;
   }
