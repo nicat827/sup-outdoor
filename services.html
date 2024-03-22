@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link href="./css/servicesAndGalery.css" rel="stylesheet"></link>
     <link href="./css/layout.css" rel="stylesheet"></link>
     <title>Услуги и цены</title>
@@ -55,7 +59,7 @@
             <div class="line"></div>
             <div class="body__wrapper">
                 <p class="body__text">
-                    Прогулка – это отличный способ изучать окружающий мир, тренируя тело и наслаждаясь природными удивительными пейзажами! 
+                    <span>this is empty text</span>Прогулка – это отличный способ изучать окружающий мир, тренируя тело и наслаждаясь природными удивительными пейзажами! 
                 </p>
                 <div class="wrapperImages__div">
                     <img src="./images/services/smallFirst.png" style="height: 146px;" />
@@ -65,18 +69,31 @@
                         <p>Длится прогулка от 2 до 3,5 часов в зависимости от выбранного маршрута и локации. Стоимость sup/каяк прогулки от 2200₽.</p>
                     </div>
                 </div>
-                <div class="slider-container"></div>
+                 <!-- Swipper slider for table and mobiles -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/services/smallFirst.png" id="img1" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/services/middleBig.png" id="img2" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/services/smallLast.png" id="img3" />
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
 
                 <div class="info__wrapper">
                     <p class="mobile walkText">Длится прогулка от 2 до 3,5 часов в зависимости от выбранного маршрута и локации. Стоимость sup/каяк прогулки от 2200₽.</p>
-                    <div style="display: flex; justify-content: space-between;">
-
-                        <p>Сап/каяк прогулки проводятся в двух локациях: Серебряный Бор и Архангельское. В каждой локации свои уникальные маршруты. На протяжении всего маршрута участников сопровождает опытный инструктор. Перед заплывом проводится теоретический курс на суше и вблизи берега - для безопасного и </p>
-                    <p>захватывающего путешествия. Прогулки проводятся как в формате смешанных групповых занятий, так и индивидуально (мини-группа друзей или для одного/двух человек).
+                    <div class="infoText__wrapper">
+                        <p class="firstText">Сап/каяк прогулки проводятся в двух локациях: Серебряный Бор и Архангельское. В каждой локации свои уникальные маршруты. На протяжении всего маршрута участников сопровождает опытный инструктор. Перед заплывом проводится теоретический курс на суше и вблизи берега - для безопасного и </p>
+                        <p>захватывающего путешествия. Прогулки проводятся как в формате смешанных групповых занятий, так и индивидуально (мини-группа друзей или для одного/двух человек).
                         Средство передвижения (сап или каяк) Вы выбираете заранее, когда бронируете услугу. Плывем все вместе (сапы и каяки). </p>
                     </div>
                     
-                    <div class="infoBtns__wrapper">
+                    <div class="infoBtns__wrapper" style="margin-left: 90px;">
                         <a class="filled__btn">ЗАБРОНИРОВАТЬ</a>
                         <a class="outlined__btn">ПОДРОБНЕЕ</a>
                     </div>                
@@ -92,7 +109,7 @@
             <div class="line"></div>
             <div class="body__wrapper">
                 <p class="body__text">
-                    Приходите к нам, чтобы насладиться прогулкой на sup досках и каяках – это идеальный подарок для каждого! 
+                    <span>this is empty text</span>Приходите к нам, чтобы насладиться прогулкой на sup досках и каяках – это идеальный подарок для каждого! 
                 </p>
                 <p class="body__subText">
                     Sup и каяк в состоянии подарить большое количество положительных эмоций, зарядить энергией и дать возможность насладиться невероятной красотой природы! 
@@ -125,7 +142,7 @@
             <div class="line"></div>
             <div class="body__wrapper">
                 <p class="body__text">
-                    Внимание! Если вы никогда не управляли сапом/каяком и хотите покататься, то для вас идеальный вариант - это сап/каяк прогулка. 
+                    <span>this is empty text</span>Внимание! Если вы никогда не управляли сапом/каяком и хотите покататься, то для вас идеальный вариант - это сап/каяк прогулка. 
                 </p>
                 <p class="body__subText">
                     Аренда вне группы для самостоятельной прогулки подходит только для людей, которые уже имели успешный опыт управления доской и умеют:
@@ -134,23 +151,35 @@
                 <div class="steps__wrapper">
                     <div class="step__item">
                         <span>01</span>
-                        <p>ГРЕСТИ СЛОЯ</p>
+                        <div>
+                            <p>ГРЕСТИ СЛОЯ</p>
+                        </div>
+                        
                     </div>
                     <div class="step__item">
                         <span>02</span>
-                        <p>ДЕЛАТЬ ПОВОРОТЫ И РАЗВОРОТЫ</p>
+                        <div>
+                            <p>ДЕЛАТЬ ПОВОРОТЫ И РАЗВОРОТЫ</p>
+                        </div>
                     </div>
                     <div class="step__item">
                         <span>03</span>
-                        <p>СДАВАТЬ НАЗАД</p>
+                        <div>
+                            <p>СДАВАТЬ НАЗАД</p>
+                        </div>
+                        
                     </div>
                     <div class="step__item">
                         <span>04</span>
-                        <p>УВЕРЕННО ПЛАВАТЬ</p>
+                        <div>
+                            <p>УВЕРЕННО ПЛАВАТЬ</p>
+                        </div>
                     </div>
-                    <div class="step__item">
+                    <div class="step__item big">
                         <span>05</span>
-                        <p>И ЗНАЮТ АКВАТОРИЮ СЕРЕБРЯННОГО БОРА/ АРХАНГЕЛЬСКОЕ</p>
+                        <div>
+                            <p>И ЗНАЮТ АКВАТОРИЮ СЕРЕБРЯННОГО БОРА/ АРХАНГЕЛЬСКОЕ</p>
+                        </div>
                     </div>
                 </div>
                 <div class="rentInner__wrapper">
@@ -178,9 +207,6 @@
              
 
                 <div class="rentInfo__wrapper">
-                    <div style="display: flex;">
-                        
-                    </div>
                     <div class="infoBtns__wrapper">
                         <a class="filled__btn">ЗАБРОНИРОВАТЬ</a>
                         <a class="outlined__btn">ПОДРОБНЕЕ</a>
@@ -197,26 +223,33 @@
             <div class="line"></div>
             <div class="body__wrapper">
                 <p class="body__text">
-                    Мы не просто проводим мероприятие, а подходим к своему делу со всей душой и делаем так, чтобы Ваше времяпровождение было незабываемым!
+                    <span>this is empty text</span>Мы не просто проводим мероприятие, а подходим к своему делу со всей душой и делаем так, чтобы Ваше времяпровождение было незабываемым!
                 </p>
                 <p class="body__subText">
                     Наша команда выступает организаторами на многих крупных городских проектах и выставках. У нас уникальная команда самых опытных инструкторов в России.  Каждое мероприятие уникальное по своей сути, и к каждому клиенту у нас свой подход. 
                     
                 </p>
-                <div class="slider-container4"></div>
-                <div class="wrapperImages__div">
-                    <img src="./images/services/holidaysSection1.png" style="height: 320px;" />
-                    <img src="./images/services/holidaysSection2.png" style="height: 500px;" />
-                    <img src="./images/services/holidaysSection3.png" style="width: 320px; height: 250px;" />
-                </div>
-                <div class="info__wrapper">
-                    <div style="display: flex;">
-                        <p>Для того, чтобы узнать условия, Вам необходимо связаться с нами, и мы предложим идеальный вариант организации мероприятия, поможем подобрать локацию, разработать план и сориентировать по другим интересующим вас вопросам. </p>
-                    </div>
-                    <div class="infoBtns__wrapper">
-                        <a class="filled__btn">ОСТАВИТЬ ЗАЯВКУ</a>
-                        <a class="outlined__btn">ПОДРОБНЕЕ</a>
-                    </div>                
+                <!-- MOBILE AND TABLE SLIDER -->
+
+                <div id="grid-wrapper">
+                        <div class="img1">
+                            <img src="./images/services/holidaysSection1.png" style="height: 75%;" />
+                        </div>
+                        <div class="img2">
+                            <img src="./images/services/holidaysSection2.png"  />
+                        </div>
+                        <div class="img3">
+                            <img src="./images/services/holidaysSection3.png" style="height: 50%;" />
+                        </div>
+                        <div class="info__wrapper">
+                            <div style="display: flex;">
+                                <p>Для того, чтобы узнать условия, Вам необходимо связаться с нами, и мы предложим идеальный вариант организации мероприятия, поможем подобрать локацию, разработать план и сориентировать по другим интересующим вас вопросам. </p>
+                            </div>
+                            <div class="infoBtns__wrapper">
+                                <a class="filled__btn">ОСТАВИТЬ ЗАЯВКУ</a>
+                                <a class="outlined__btn">ПОДРОБНЕЕ</a>
+                            </div>                
+                        </div>
                 </div>
             </div>
         </section>
@@ -229,7 +262,7 @@
             <div class="line"></div>
             <div class="body__wrapper">
                 <p class="body__text">
-                    Вы уже готовы к новым путешествиям? Тогда отправляйтесь покорять новые места вместе с Sup Outdoor! 
+                    <span>this is empty text</span>Вы уже готовы к новым путешествиям? Тогда отправляйтесь покорять новые места вместе с Sup Outdoor! 
                 </p>
                 <p class="body__subText">
                     Авторский тур – это всегда внимание к деталям и индивидуальный подход, мы стараемся учесть все пожелания наших гостей. Небольшие группы и тщательная проработка маршрута позволит Вам почувствовать себя главным героем путешествия. Наша команда имеет огромный опыт в организации и проведении авторских sup туров! Различная длительность – от одного дня до двух недель. Sup тур подходит для любого возраста и вне зависимости от уровня владения sup навыками. 
@@ -251,6 +284,15 @@
             </div>
         </section>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js" integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        });
+    </script>
     <script src="./scripts/services.js" ></script>
 </body>
 </html>

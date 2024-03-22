@@ -323,15 +323,41 @@ section {
             float: right;
             margin-top: 20px;
         }
+        .swiper {
+            display: none;
+            width: 100%;
+            border-radius: 8px;
+            height: 500px;
+        }
+        
+        .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        border-radius: 8px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+    
+        .swiper-slide img {
+        display: block;
+        height: 500px;
+        width: 100%;
+        object-fit: cover;
+        }
+       
         @media screen  and (max-width:640px){
             .info-text {
                 width: 100%;
+                margin-bottom: 15px;
             }
             .images-wrapper {
                 display: none !important;
             }
             .advantages-wrapper {
                 flex-direction: column;
+                padding-top: 10px;
                 span {
                     width: 100% !important;
                 }
@@ -340,9 +366,16 @@ section {
                 }
             }
             .swiper {
-                width: 600px;
-                height: 300px;
-              }
+                display: flex !important;
+            }
+            .swiper-pagination {
+                height: 30px;
+            }
+            .swiper-pagination-bullet {
+                width: 12px;
+                
+                height: 12px;
+            }
         }
         
         .images-wrapper {
@@ -403,5 +436,44 @@ section {
         }
 
     }
+    
+    /* EXPERIENCE SECTION */
+    #experience {
+        width: 80%;
+        font-family: 'Euclid Circular A';
+        .header-wrapper {
+            width: 100%;
+            position: relative;
+            .header-text {
+                text-transform: uppercase;
+                background: linear-gradient(180deg, #00DBFF -37.95%, #00C2E2 24.04%, #00B4D1 50.21%, #00A5C0 76.38%, #006476 125.15%, #005F6F 151.33%, #009BB4 179.88%);
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+                font-size: 40px;
+                text-align: center;
+                font-weight: 600;
+                vertical-align: middle;
+
+            }
+            div {
+                display: inline-flex;
+                flex-direction: column;
+                font-size: 16px;
+                vertical-align: middle;
+
+                text-transform: uppercase;
+                background: linear-gradient(180deg, #00DBFF -37.95%, #00C2E2 24.04%, #00B4D1 50.21%, #00A5C0 76.38%, #006476 125.15%, #005F6F 151.33%, #009BB4 179.88%);
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+                margin-right: 10px;
+                font-weight: 400;
+            }
+        }
+        
+        .advantages-wrapper {
+
+        }
+    }
+
 }
 
