@@ -1682,6 +1682,12 @@
     .places__items {
       grid-template-columns: repeat(2, 1fr);
     }
+    .places__item {
+        max-width: 387px;
+    }
+    .places__item-big {
+        display: none;
+    }
   }
   @media (max-width: 767px) {
     .places__items {
@@ -1691,55 +1697,23 @@
   .places__item {
     border-radius: 10px;
     overflow: hidden;
-    position: relative;
     max-height: 500px;
     min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 15px;
+    
   }
-  @supports (padding-top: clamp( 1.25rem , 1.1009687034rem  +  0.7451564829vw , 1.5625rem )) {
-    .places__item {
-      padding-top: clamp( 1.25rem , 1.1009687034rem  +  0.7451564829vw , 1.5625rem );
-    }
-  }
-  @supports not (padding-top: clamp( 1.25rem , 1.1009687034rem  +  0.7451564829vw , 1.5625rem )) {
-    .places__item {
-      padding-top: calc(1.25rem + 0.3125 * (100vw - 20rem) / 41.9375);
-    }
-  }
-  @supports (padding-bottom: clamp( 1.25rem , 1.1009687034rem  +  0.7451564829vw , 1.5625rem )) {
-    .places__item {
-      padding-bottom: clamp( 1.25rem , 1.1009687034rem  +  0.7451564829vw , 1.5625rem );
-    }
-  }
-  @supports not (padding-bottom: clamp( 1.25rem , 1.1009687034rem  +  0.7451564829vw , 1.5625rem )) {
-    .places__item {
-      padding-bottom: calc(1.25rem + 0.3125 * (100vw - 20rem) / 41.9375);
-    }
-  }
-  @supports (padding-left: clamp( 1.25rem , 1.1009687034rem  +  0.7451564829vw , 1.5625rem )) {
-    .places__item {
-      padding-left: clamp( 1.25rem , 1.1009687034rem  +  0.7451564829vw , 1.5625rem );
-    }
-  }
-  @supports not (padding-left: clamp( 1.25rem , 1.1009687034rem  +  0.7451564829vw , 1.5625rem )) {
-    .places__item {
-      padding-left: calc(1.25rem + 0.3125 * (100vw - 20rem) / 41.9375);
-    }
-  }
-  @supports (padding-right: clamp( 1.25rem , 0.6538748137rem  +  2.9806259314vw , 2.5rem )) {
-    .places__item {
-      padding-right: clamp( 1.25rem , 0.6538748137rem  +  2.9806259314vw , 2.5rem );
-    }
-  }
-  @supports not (padding-right: clamp( 1.25rem , 0.6538748137rem  +  2.9806259314vw , 2.5rem )) {
-    .places__item {
-      padding-right: calc(1.25rem + 1.25 * (100vw - 20rem) / 41.9375);
-    }
-  }
+ 
+
+  
+  
   .places__item-big {
     grid-column: 1/3;
     display: flex;
-    align-items: center;
-    gap: 40px;
+    align-items: flex-start;
   }
   @media (max-width: 991px) {
     .places__item-big {
@@ -1750,23 +1724,108 @@
   .places__item-1 {
     background-image: url("../images/contacts/Routes/Places/1.png");
     color: white !important;
+    background-repeat: no-repeat;
+    transition: background-color 3s ease;
+
   }
+  
+   .places__item-1:hover {
+    transition: 3s;
+    cursor: pointer;
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../images/contacts/Routes/Places/1.png');
+  }
+  
   .places__item-2 {
     background-image: url("../images/contacts/Routes/Places/2.png");
     color: white !important;
+    background-repeat: no-repeat;
+
+  }
+  
+  .places__item-2:hover {
+    transition: 3s;
+    cursor: pointer;
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/contacts/Routes/Places/2.png")
   }
   .places__item-3 {
     background-image: url("../images/contacts/Routes/Places/3.png");
     color: white !important;
+    background-repeat: no-repeat;
+  }
+  .places__item-3:hover {
+    transition: 3s;
+    cursor: pointer;
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/contacts/Routes/Places/3.png")
   }
   .places__item-4 {
     background-image: url("../images/contacts/Routes/Places/4.png");
     color: white !important;
     max-height: 500px;
+    background-repeat: no-repeat;
+
+  }
+  .places__item-4:hover {
+    transition: 3s;
+    cursor: pointer;
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/contacts/Routes/Places/4.png")
   }
   .places__item-5 {
     background-image: url("../images/contacts/Routes/Places/5.png");
     color: white !important;
+    background-repeat: no-repeat;
+  }
+  .places__item-5:hover {
+    transition: 3s;
+    cursor: pointer;
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/contacts/Routes/Places/5.png")
+  }
+  .places__item-6 {
+    background-image: url("../images/contacts/Routes/Places/6.png");
+    color: white !important;
+    background-repeat: no-repeat;
+
+  }
+  .places__item-6:hover {
+    transition: 3s;
+    cursor: pointer;
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/contacts/Routes/Places/6.png")
+  }
+  .places__item-7 {
+    background-image: url("../images/contacts/Routes/Places/7.png");
+    color: white !important;
+    background-repeat: no-repeat;
+
+  }
+  .places__item-7:hover {
+    transition: 3s;
+    cursor: pointer;
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/contacts/Routes/Places/7.png")
+  }
+  .places__item-8 {
+    background-image: url("../images/contacts/Routes/Places/8.png");
+    color: white !important;
+    background-repeat: no-repeat;
+  }
+  .places__item-8:hover {
+    transition: 3s;
+    cursor: pointer;
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/contacts/Routes/Places/8.png")
   }
   .places__day {
     display: inline-block;
@@ -1879,6 +1938,7 @@
   }
   .places__description {
     font-size: 14px;
+    max-width: 390px;
     color: white;
   }
   @supports (font-size: clamp( 0.75rem , 0.6903874814rem  +  0.2980625931vw , 0.875rem )) {
@@ -1927,11 +1987,11 @@
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 5%;
+    margin-top: 15px ;
     text-transform: uppercase;
     border-radius: 50px;
-    position: absolute;
-    bottom: 19px;
     background: #00c2e2;
+    max-width: 200px;
     transition: background-color 0.3s ease 0s;
   }
   @supports (font-size: clamp( 0.625rem , 0.5653874814rem  +  0.2980625931vw , 0.75rem )) {
@@ -2000,7 +2060,10 @@
     }
   }
   .places__wrapper {
-    max-width: 390px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 110%;
   }
   .places__image {
     flex: 0 0 290px;
@@ -2713,4 +2776,4 @@
     background-color: white;
     margin-right: 10px;
   }
-  
+ 

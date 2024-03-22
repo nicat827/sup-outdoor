@@ -61,27 +61,27 @@ function showSLider() {
         </div>
         </div>
     `;
+    sliderContainer3.innerHTML = sliderHTML;
+    sliderHTML = `
+    <div class="slider">
+    <input type="radio" name="sliderHoliday" id="slideHolidays1" checked>
+    <input type="radio" name="sliderHoliday" id="slideHolidays2">
+    <input type="radio" name="sliderHoliday" id="slideHolidays3">
+    
+    <div class="slides">
+        <div class="slide" id="slide-holiday1"><img src="./images/services/holidaysSection1.png"  /></div>
+        <div class="slide" id="slide-holiday2"><img src="./images/services/holidaysSection2.png"  /></div>
+        <div class="slide" id="slide-holiday3"><img src="./images/services/holidaysSection3.png"  /></div>
+    </div>
+    
+    <div class="navigation">
+        <label for="slideHolidays1"></label>
+        <label for="slideHolidays2"></label>
+        <label for="slideHolidays3"></label>
+    </div>
+    </div>
+`;
         sliderContainer4.innerHTML = sliderHTML;
-        sliderHTML = `
-        <div class="slider">
-        <input type="radio" name="sliderHoliday" id="slideHolidays1" checked>
-        <input type="radio" name="sliderHoliday" id="slideHolidays2">
-        <input type="radio" name="sliderHoliday" id="slideHolidays3">
-        
-        <div class="slides">
-            <div class="slide" id="slide-holiday1"><img src="./images/services/holidaysSection1.png"  /></div>
-            <div class="slide" id="slide-holiday2"><img src="./images/services/holidaysSection2.png"  /></div>
-            <div class="slide" id="slide-holiday3"><img src="./images/services/holidaysSection3.png"  /></div>
-        </div>
-        
-        <div class="navigation">
-            <label for="slideHolidays1"></label>
-            <label for="slideHolidays2"></label>
-            <label for="slideHolidays3"></label>
-        </div>
-        </div>
-    `;
-        sliderContainer5.innerHTML = sliderHTML;
 
         sliderHTML = `
         <div class="slider">

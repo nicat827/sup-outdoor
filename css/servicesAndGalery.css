@@ -1,1065 +1,1075 @@
 @font-face {
-    font-family: 'Fractul Hairline';
-    src: url('../fonts/fractul/Fractul-HairlineItalic.eot');
-    src: local('Fractul Hairline Italic'), local('Fractul-HairlineItalic'),
-        url('../fonts/fractul/Fractul-HairlineItalic.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/fractul/Fractul-HairlineItalic.woff2') format('woff2'),
-        url('../fonts/fractul/Fractul-HairlineItalic.woff') format('woff'),
-        url('../fonts/fractul/Fractul-HairlineItalic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
+  font-family: 'Fractul Hairline';
+  src: url('../fonts/fractul/Fractul-HairlineItalic.eot');
+  src: local('Fractul Hairline Italic'), local('Fractul-HairlineItalic'),
+      url('../fonts/fractul/Fractul-HairlineItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/fractul/Fractul-HairlineItalic.woff2') format('woff2'),
+      url('../fonts/fractul/Fractul-HairlineItalic.woff') format('woff'),
+      url('../fonts/fractul/Fractul-HairlineItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'Fractul';
-    src: url('../fonts/fractul/Fractul-Italic.eot');
-    src: local('Fractul Italic'), local('Fractul-Italic'),
-        url('../fonts/fractul/Fractul-Italic.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/fractul/Fractul-Italic.woff2') format('woff2'),
-        url('../fonts/fractul/Fractul-Italic.woff') format('woff'),
-        url('../fonts/fractul/Fractul-Italic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
+  font-family: 'Fractul';
+  src: url('../fonts/fractul/Fractul-Italic.eot');
+  src: local('Fractul Italic'), local('Fractul-Italic'),
+      url('../fonts/fractul/Fractul-Italic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/fractul/Fractul-Italic.woff2') format('woff2'),
+      url('../fonts/fractul/Fractul-Italic.woff') format('woff'),
+      url('../fonts/fractul/Fractul-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'Fractul';
-    src: url('../fonts/fractul/Fractul-Bold.eot');
-    src: local('Fractul Bold'), local('Fractul-Bold'),
-        url('../fonts/fractul/Fractul-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/fractul/Fractul-Bold.woff2') format('woff2'),
-        url('../fonts/fractul/Fractul-Bold.woff') format('woff'),
-        url('../fonts/fractul/Fractul-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
+  font-family: 'Fractul';
+  src: url('../fonts/fractul/Fractul-Bold.eot');
+  src: local('Fractul Bold'), local('Fractul-Bold'),
+      url('../fonts/fractul/Fractul-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/fractul/Fractul-Bold.woff2') format('woff2'),
+      url('../fonts/fractul/Fractul-Bold.woff') format('woff'),
+      url('../fonts/fractul/Fractul-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Fractul';
-    src: url('../fonts/fractul/Fractul-BlackItalic.eot');
-    src: local('Fractul Black Italic'), local('Fractul-BlackItalic'),
-        url('../fonts/fractul/Fractul-BlackItalic.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/fractul/Fractul-BlackItalic.woff2') format('woff2'),
-        url('../fonts/fractul/Fractul-BlackItalic.woff') format('woff'),
-        url('../fonts/fractul/Fractul-BlackItalic.ttf') format('truetype');
-    font-weight: 900;
-    font-style: italic;
+  font-family: 'Fractul';
+  src: url('../fonts/fractul/Fractul-BlackItalic.eot');
+  src: local('Fractul Black Italic'), local('Fractul-BlackItalic'),
+      url('../fonts/fractul/Fractul-BlackItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/fractul/Fractul-BlackItalic.woff2') format('woff2'),
+      url('../fonts/fractul/Fractul-BlackItalic.woff') format('woff'),
+      url('../fonts/fractul/Fractul-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'Fractul Hairline';
-    src: url('../fonts/fractul/Fractul-Hairline.eot');
-    src: local('Fractul Hairline'), local('Fractul-Hairline'),
-        url('../fonts/fractul/Fractul-Hairline.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/fractul/Fractul-Hairline.woff2') format('woff2'),
-        url('../fonts/fractul/Fractul-Hairline.woff') format('woff'),
-        url('../fonts/fractul/Fractul-Hairline.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Fractul Hairline';
+  src: url('../fonts/fractul/Fractul-Hairline.eot');
+  src: local('Fractul Hairline'), local('Fractul-Hairline'),
+      url('../fonts/fractul/Fractul-Hairline.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/fractul/Fractul-Hairline.woff2') format('woff2'),
+      url('../fonts/fractul/Fractul-Hairline.woff') format('woff'),
+      url('../fonts/fractul/Fractul-Hairline.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Fractul';
-    src: url('../fonts/fractul/Fractul-Light.eot');
-    src: local('Fractul Light'), local('Fractul-Light'),
-        url('../fonts/fractul/Fractul-Light.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/fractul/Fractul-Light.woff2') format('woff2'),
-        url('../fonts/fractul/Fractul-Light.woff') format('woff'),
-        url('../fonts/fractul/Fractul-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
+  font-family: 'Fractul';
+  src: url('../fonts/fractul/Fractul-Light.eot');
+  src: local('Fractul Light'), local('Fractul-Light'),
+      url('../fonts/fractul/Fractul-Light.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/fractul/Fractul-Light.woff2') format('woff2'),
+      url('../fonts/fractul/Fractul-Light.woff') format('woff'),
+      url('../fonts/fractul/Fractul-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Fractul';
-    src: url('../fonts/fractul/Fractul-ExtraBold.eot');
-    src: local('Fractul ExtraBold'), local('Fractul-ExtraBold'),
-        url('../fonts/fractul/Fractul-ExtraBold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/fractul/Fractul-ExtraBold.woff2') format('woff2'),
-        url('../fonts/fractul/Fractul-ExtraBold.woff') format('woff'),
-        url('../fonts/fractul/Fractul-ExtraBold.ttf') format('truetype');
-    font-weight: 800;
-    font-style: normal;
+  font-family: 'Fractul';
+  src: url('../fonts/fractul/Fractul-ExtraBold.eot');
+  src: local('Fractul ExtraBold'), local('Fractul-ExtraBold'),
+      url('../fonts/fractul/Fractul-ExtraBold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/fractul/Fractul-ExtraBold.woff2') format('woff2'),
+      url('../fonts/fractul/Fractul-ExtraBold.woff') format('woff'),
+      url('../fonts/fractul/Fractul-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Fractul';
-    src: url('../fonts/fractul/Fractul-BoldItalic.eot');
-    src: local('Fractul Bold Italic'), local('Fractul-BoldItalic'),
-        url('../fonts/fractul/Fractul-BoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/fractul/Fractul-BoldItalic.woff2') format('woff2'),
-        url('../fonts/fractul/Fractul-BoldItalic.woff') format('woff'),
-        url('../fonts/fractul/Fractul-BoldItalic.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
+  font-family: 'Fractul';
+  src: url('../fonts/fractul/Fractul-BoldItalic.eot');
+  src: local('Fractul Bold Italic'), local('Fractul-BoldItalic'),
+      url('../fonts/fractul/Fractul-BoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/fractul/Fractul-BoldItalic.woff2') format('woff2'),
+      url('../fonts/fractul/Fractul-BoldItalic.woff') format('woff'),
+      url('../fonts/fractul/Fractul-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'Fractul';
-    src: url('../fonts/fractul/Fractul-LightItalic.eot');
-    src: local('Fractul Light Italic'), local('Fractul-LightItalic'),
-        url('../fonts/fractul/Fractul-LightItalic.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/fractul/Fractul-LightItalic.woff2') format('woff2'),
-        url('../fonts/fractul/Fractul-LightItalic.woff') format('woff'),
-        url('../fonts/fractul/Fractul-LightItalic.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic;
+  font-family: 'Fractul';
+  src: url('../fonts/fractul/Fractul-LightItalic.eot');
+  src: local('Fractul Light Italic'), local('Fractul-LightItalic'),
+      url('../fonts/fractul/Fractul-LightItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/fractul/Fractul-LightItalic.woff2') format('woff2'),
+      url('../fonts/fractul/Fractul-LightItalic.woff') format('woff'),
+      url('../fonts/fractul/Fractul-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'Fractul';
-    src: url('../fonts/fractul/Fractul-Thin.eot');
-    src: local('Fractul Thin'), local('Fractul-Thin'),
-        url('../fonts/fractul/Fractul-Thin.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/fractul/Fractul-Thin.woff2') format('woff2'),
-        url('../fonts/fractul/Fractul-Thin.woff') format('woff'),
-        url('../fonts/fractul/Fractul-Thin.ttf') format('truetype');
-    font-weight: 100;
-    font-style: normal;
+  font-family: 'Fractul';
+  src: url('../fonts/fractul/Fractul-Thin.eot');
+  src: local('Fractul Thin'), local('Fractul-Thin'),
+      url('../fonts/fractul/Fractul-Thin.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/fractul/Fractul-Thin.woff2') format('woff2'),
+      url('../fonts/fractul/Fractul-Thin.woff') format('woff'),
+      url('../fonts/fractul/Fractul-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Fractul';
-    src: url('../fonts/fractul/Fractul-SemiBoldItalic.eot');
-    src: local('Fractul SemiBold Italic'), local('Fractul-SemiBoldItalic'),
-        url('../fonts/fractul/Fractul-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/fractul/Fractul-SemiBoldItalic.woff2') format('woff2'),
-        url('../fonts/fractul/Fractul-SemiBoldItalic.woff') format('woff'),
-        url('../fonts/fractul/Fractul-SemiBoldItalic.ttf') format('truetype');
-    font-weight: 600;
-    font-style: italic;
+  font-family: 'Fractul';
+  src: url('../fonts/fractul/Fractul-SemiBoldItalic.eot');
+  src: local('Fractul SemiBold Italic'), local('Fractul-SemiBoldItalic'),
+      url('../fonts/fractul/Fractul-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/fractul/Fractul-SemiBoldItalic.woff2') format('woff2'),
+      url('../fonts/fractul/Fractul-SemiBoldItalic.woff') format('woff'),
+      url('../fonts/fractul/Fractul-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'Fractul';
-    src: url('../fonts/fractul/Fractul-MediumItalic.eot');
-    src: local('Fractul Medium Italic'), local('Fractul-MediumItalic'),
-        url('../fonts/fractul/Fractul-MediumItalic.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/fractul/Fractul-MediumItalic.woff2') format('woff2'),
-        url('../fonts/fractul/Fractul-MediumItalic.woff') format('woff'),
-        url('../fonts/fractul/Fractul-MediumItalic.ttf') format('truetype');
-    font-weight: 500;
-    font-style: italic;
+  font-family: 'Fractul';
+  src: url('../fonts/fractul/Fractul-MediumItalic.eot');
+  src: local('Fractul Medium Italic'), local('Fractul-MediumItalic'),
+      url('../fonts/fractul/Fractul-MediumItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/fractul/Fractul-MediumItalic.woff2') format('woff2'),
+      url('../fonts/fractul/Fractul-MediumItalic.woff') format('woff'),
+      url('../fonts/fractul/Fractul-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
 }
 @font-face {
-    font-family: 'Fractul';
-    src: url('../fonts/fractul/Fractul-Regular.eot');
-    src: local('Fractul Regular'), local('Fractul-Regular'),
-        url('../fonts/fractul/Fractul-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/fractul/Fractul-Regular.woff2') format('woff2'),
-        url('../fonts/fractul/Fractul-Regular.woff') format('woff'),
-        url('../fonts/fractul/Fractul-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Fractul';
-    src: url('../fonts/fractul/Fractul-Black.eot');
-    src: local('Fractul Black'), local('Fractul-Black'),
-        url('../fonts/fractul/Fractul-Black.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/fractul/Fractul-Black.woff2') format('woff2'),
-        url('../fonts/fractul/Fractul-Black.woff') format('woff'),
-        url('../fonts/fractul/Fractul-Black.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
+  font-family: 'Fractul';
+  src: url('../fonts/fractul/Fractul-Regular.eot');
+  src: local('Fractul Regular'), local('Fractul-Regular'),
+      url('../fonts/fractul/Fractul-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/fractul/Fractul-Regular.woff2') format('woff2'),
+      url('../fonts/fractul/Fractul-Regular.woff') format('woff'),
+      url('../fonts/fractul/Fractul-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Fractul';
-    src: url('../fonts/fractul/Fractul-SemiBold.eot');
-    src: local('Fractul SemiBold'), local('Fractul-SemiBold'),
-        url('../fonts/fractul/Fractul-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/fractul/Fractul-SemiBold.woff2') format('woff2'),
-        url('../fonts/fractul/Fractul-SemiBold.woff') format('woff'),
-        url('../fonts/fractul/Fractul-SemiBold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
+  font-family: 'Fractul';
+  src: url('../fonts/fractul/Fractul-Black.eot');
+  src: local('Fractul Black'), local('Fractul-Black'),
+      url('../fonts/fractul/Fractul-Black.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/fractul/Fractul-Black.woff2') format('woff2'),
+      url('../fonts/fractul/Fractul-Black.woff') format('woff'),
+      url('../fonts/fractul/Fractul-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Fractul';
-    src: url('../fonts/fractul/Fractul-ThinItalic.eot');
-    src: local('Fractul Thin Italic'), local('Fractul-ThinItalic'),
-        url('../fonts/fractul/Fractul-ThinItalic.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/fractul/Fractul-ThinItalic.woff2') format('woff2'),
-        url('../fonts/fractul/Fractul-ThinItalic.woff') format('woff'),
-        url('../fonts/fractul/Fractul-ThinItalic.ttf') format('truetype');
-    font-weight: 100;
-    font-style: italic;
+  font-family: 'Fractul';
+  src: url('../fonts/fractul/Fractul-SemiBold.eot');
+  src: local('Fractul SemiBold'), local('Fractul-SemiBold'),
+      url('../fonts/fractul/Fractul-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/fractul/Fractul-SemiBold.woff2') format('woff2'),
+      url('../fonts/fractul/Fractul-SemiBold.woff') format('woff'),
+      url('../fonts/fractul/Fractul-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Fractul';
-    src: url('../fonts/fractul/Fractul-ExtraBoldItalic.eot');
-    src: local('Fractul ExtraBold Italic'), local('Fractul-ExtraBoldItalic'),
-        url('../fonts/fractul/Fractul-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/fractul/Fractul-ExtraBoldItalic.woff2') format('woff2'),
-        url('../fonts/fractul/Fractul-ExtraBoldItalic.woff') format('woff'),
-        url('../fonts/fractul/Fractul-ExtraBoldItalic.ttf') format('truetype');
-    font-weight: 800;
-    font-style: italic;
+  font-family: 'Fractul';
+  src: url('../fonts/fractul/Fractul-ThinItalic.eot');
+  src: local('Fractul Thin Italic'), local('Fractul-ThinItalic'),
+      url('../fonts/fractul/Fractul-ThinItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/fractul/Fractul-ThinItalic.woff2') format('woff2'),
+      url('../fonts/fractul/Fractul-ThinItalic.woff') format('woff'),
+      url('../fonts/fractul/Fractul-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'Fractul';
-    src: url('../fonts/fractul/Fractul-Medium.eot');
-    src: local('Fractul Medium'), local('Fractul-Medium'),
-        url('../fonts/fractul/Fractul-Medium.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/fractul/Fractul-Medium.woff2') format('woff2'),
-        url('../fonts/fractul/Fractul-Medium.woff') format('woff'),
-        url('../fonts/fractul/Fractul-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Euclid Circular A';
-    src: url('../fonts/euclid/EuclidCircularA-Bold.eot');
-    src: local('Euclid Circular A Bold'), local('EuclidCircularA-Bold'),
-        url('../fonts/euclid/EuclidCircularA-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/euclid/EuclidCircularA-Bold.woff2') format('woff2'),
-        url('../fonts/euclid/EuclidCircularA-Bold.woff') format('woff'),
-        url('../fonts/euclid/EuclidCircularA-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
+  font-family: 'Fractul';
+  src: url('../fonts/fractul/Fractul-ExtraBoldItalic.eot');
+  src: local('Fractul ExtraBold Italic'), local('Fractul-ExtraBoldItalic'),
+      url('../fonts/fractul/Fractul-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/fractul/Fractul-ExtraBoldItalic.woff2') format('woff2'),
+      url('../fonts/fractul/Fractul-ExtraBoldItalic.woff') format('woff'),
+      url('../fonts/fractul/Fractul-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'Euclid Circular A';
-    src: url('../fonts/euclid/EuclidCircularA-Light.eot');
-    src: local('Euclid Circular A Light'), local('EuclidCircularA-Light'),
-        url('../fonts/euclid/EuclidCircularA-Light.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/euclid/EuclidCircularA-Light.woff2') format('woff2'),
-        url('../fonts/euclid/EuclidCircularA-Light.woff') format('woff'),
-        url('../fonts/euclid/EuclidCircularA-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
+  font-family: 'Fractul';
+  src: url('../fonts/fractul/Fractul-Medium.eot');
+  src: local('Fractul Medium'), local('Fractul-Medium'),
+      url('../fonts/fractul/Fractul-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/fractul/Fractul-Medium.woff2') format('woff2'),
+      url('../fonts/fractul/Fractul-Medium.woff') format('woff'),
+      url('../fonts/fractul/Fractul-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Euclid Circular A';
+  src: url('../fonts/euclid/EuclidCircularA-Bold.eot');
+  src: local('Euclid Circular A Bold'), local('EuclidCircularA-Bold'),
+      url('../fonts/euclid/EuclidCircularA-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/euclid/EuclidCircularA-Bold.woff2') format('woff2'),
+      url('../fonts/euclid/EuclidCircularA-Bold.woff') format('woff'),
+      url('../fonts/euclid/EuclidCircularA-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Euclid Circular A';
-    src: url('../fonts/euclid/EuclidCircularA-BoldItalic.eot');
-    src: local('Euclid Circular A Bold Italic'), local('EuclidCircularA-BoldItalic'),
-        url('../fonts/euclid/EuclidCircularA-BoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/euclid/EuclidCircularA-BoldItalic.woff2') format('woff2'),
-        url('../fonts/euclid/EuclidCircularA-BoldItalic.woff') format('woff'),
-        url('../fonts/euclid/EuclidCircularA-BoldItalic.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
+  font-family: 'Euclid Circular A';
+  src: url('../fonts/euclid/EuclidCircularA-Light.eot');
+  src: local('Euclid Circular A Light'), local('EuclidCircularA-Light'),
+      url('../fonts/euclid/EuclidCircularA-Light.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/euclid/EuclidCircularA-Light.woff2') format('woff2'),
+      url('../fonts/euclid/EuclidCircularA-Light.woff') format('woff'),
+      url('../fonts/euclid/EuclidCircularA-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Euclid Circular A';
-    src: url('../fonts/euclid/EuclidCircularA-LightItalic.eot');
-    src: local('Euclid Circular A Light Italic'), local('EuclidCircularA-LightItalic'),
-        url('../fonts/euclid/EuclidCircularA-LightItalic.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/euclid/EuclidCircularA-LightItalic.woff2') format('woff2'),
-        url('../fonts/euclid/EuclidCircularA-LightItalic.woff') format('woff'),
-        url('../fonts/euclid/EuclidCircularA-LightItalic.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic;
+  font-family: 'Euclid Circular A';
+  src: url('../fonts/euclid/EuclidCircularA-BoldItalic.eot');
+  src: local('Euclid Circular A Bold Italic'), local('EuclidCircularA-BoldItalic'),
+      url('../fonts/euclid/EuclidCircularA-BoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/euclid/EuclidCircularA-BoldItalic.woff2') format('woff2'),
+      url('../fonts/euclid/EuclidCircularA-BoldItalic.woff') format('woff'),
+      url('../fonts/euclid/EuclidCircularA-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'Euclid Circular A';
-    src: url('../fonts/euclid/EuclidCircularA-Regular.eot');
-    src: local('Euclid Circular A Regular'), local('EuclidCircularA-Regular'),
-        url('../fonts/euclid/EuclidCircularA-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/euclid/EuclidCircularA-Regular.woff2') format('woff2'),
-        url('../fonts/euclid/EuclidCircularA-Regular.woff') format('woff'),
-        url('../fonts/euclid/EuclidCircularA-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Euclid Circular A';
+  src: url('../fonts/euclid/EuclidCircularA-LightItalic.eot');
+  src: local('Euclid Circular A Light Italic'), local('EuclidCircularA-LightItalic'),
+      url('../fonts/euclid/EuclidCircularA-LightItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/euclid/EuclidCircularA-LightItalic.woff2') format('woff2'),
+      url('../fonts/euclid/EuclidCircularA-LightItalic.woff') format('woff'),
+      url('../fonts/euclid/EuclidCircularA-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'Euclid Circular A';
-    src: url('../fonts/euclid/EuclidCircularA-SemiBold.eot');
-    src: local('Euclid Circular A SemiBold'), local('EuclidCircularA-SemiBold'),
-        url('../fonts/euclid/EuclidCircularA-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/euclid/EuclidCircularA-SemiBold.woff2') format('woff2'),
-        url('../fonts/euclid/EuclidCircularA-SemiBold.woff') format('woff'),
-        url('../fonts/euclid/EuclidCircularA-SemiBold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
+  font-family: 'Euclid Circular A';
+  src: url('../fonts/euclid/EuclidCircularA-Regular.eot');
+  src: local('Euclid Circular A Regular'), local('EuclidCircularA-Regular'),
+      url('../fonts/euclid/EuclidCircularA-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/euclid/EuclidCircularA-Regular.woff2') format('woff2'),
+      url('../fonts/euclid/EuclidCircularA-Regular.woff') format('woff'),
+      url('../fonts/euclid/EuclidCircularA-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Euclid Circular A';
-    src: url('../fonts/euclid/EuclidCircularA-Medium.eot');
-    src: local('Euclid Circular A Medium'), local('EuclidCircularA-Medium'),
-        url('../fonts/euclid/EuclidCircularA-Medium.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/euclid/EuclidCircularA-Medium.woff2') format('woff2'),
-        url('../fonts/euclid/EuclidCircularA-Medium.woff') format('woff'),
-        url('../fonts/euclid/EuclidCircularA-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
+  font-family: 'Euclid Circular A';
+  src: url('../fonts/euclid/EuclidCircularA-SemiBold.eot');
+  src: local('Euclid Circular A SemiBold'), local('EuclidCircularA-SemiBold'),
+      url('../fonts/euclid/EuclidCircularA-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/euclid/EuclidCircularA-SemiBold.woff2') format('woff2'),
+      url('../fonts/euclid/EuclidCircularA-SemiBold.woff') format('woff'),
+      url('../fonts/euclid/EuclidCircularA-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Euclid Circular A';
-    src: url('../fonts/euclid/EuclidCircularA-Italic.eot');
-    src: local('Euclid Circular A Italic'), local('EuclidCircularA-Italic'),
-        url('../fonts/euclid/EuclidCircularA-Italic.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/euclid/EuclidCircularA-Italic.woff2') format('woff2'),
-        url('../fonts/euclid/EuclidCircularA-Italic.woff') format('woff'),
-        url('../fonts/euclid/EuclidCircularA-Italic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
+  font-family: 'Euclid Circular A';
+  src: url('../fonts/euclid/EuclidCircularA-Medium.eot');
+  src: local('Euclid Circular A Medium'), local('EuclidCircularA-Medium'),
+      url('../fonts/euclid/EuclidCircularA-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/euclid/EuclidCircularA-Medium.woff2') format('woff2'),
+      url('../fonts/euclid/EuclidCircularA-Medium.woff') format('woff'),
+      url('../fonts/euclid/EuclidCircularA-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Euclid Circular A';
-    src: url('../fonts/euclid/EuclidCircularA-SemiBoldItalic.eot');
-    src: local('Euclid Circular A SemiBold Italic'), local('EuclidCircularA-SemiBoldItalic'),
-        url('../fonts/euclid/EuclidCircularA-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/euclid/EuclidCircularA-SemiBoldItalic.woff2') format('woff2'),
-        url('../fonts/euclid/EuclidCircularA-SemiBoldItalic.woff') format('woff'),
-        url('../fonts/euclid/EuclidCircularA-SemiBoldItalic.ttf') format('truetype');
-    font-weight: 600;
-    font-style: italic;
+  font-family: 'Euclid Circular A';
+  src: url('../fonts/euclid/EuclidCircularA-Italic.eot');
+  src: local('Euclid Circular A Italic'), local('EuclidCircularA-Italic'),
+      url('../fonts/euclid/EuclidCircularA-Italic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/euclid/EuclidCircularA-Italic.woff2') format('woff2'),
+      url('../fonts/euclid/EuclidCircularA-Italic.woff') format('woff'),
+      url('../fonts/euclid/EuclidCircularA-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'Euclid Circular A';
-    src: url('../fonts/euclid/EuclidCircularA-MediumItalic.eot');
-    src: local('Euclid Circular A Medium Italic'), local('EuclidCircularA-MediumItalic'),
-        url('../fonts/euclid/EuclidCircularA-MediumItalic.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/euclid/EuclidCircularA-MediumItalic.woff2') format('woff2'),
-        url('../fonts/euclid/EuclidCircularA-MediumItalic.woff') format('woff'),
-        url('../fonts/euclid/EuclidCircularA-MediumItalic.ttf') format('truetype');
-    font-weight: 500;
-    font-style: italic;
+  font-family: 'Euclid Circular A';
+  src: url('../fonts/euclid/EuclidCircularA-SemiBoldItalic.eot');
+  src: local('Euclid Circular A SemiBold Italic'), local('EuclidCircularA-SemiBoldItalic'),
+      url('../fonts/euclid/EuclidCircularA-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/euclid/EuclidCircularA-SemiBoldItalic.woff2') format('woff2'),
+      url('../fonts/euclid/EuclidCircularA-SemiBoldItalic.woff') format('woff'),
+      url('../fonts/euclid/EuclidCircularA-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Euclid Circular A';
+  src: url('../fonts/euclid/EuclidCircularA-MediumItalic.eot');
+  src: local('Euclid Circular A Medium Italic'), local('EuclidCircularA-MediumItalic'),
+      url('../fonts/euclid/EuclidCircularA-MediumItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/euclid/EuclidCircularA-MediumItalic.woff2') format('woff2'),
+      url('../fonts/euclid/EuclidCircularA-MediumItalic.woff') format('woff'),
+      url('../fonts/euclid/EuclidCircularA-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
 }
 *{
-    margin: 0;
-    padding:0;
+  margin: 0;
+  padding:0;
 }
 .services__wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
 
 }
 .services__div {
-    display: flex;
-    margin-top: 20px;
-    width: 70%;
+  display: flex;
+  margin-top: 20px;
+  width: 70%;
 }
 
 
 .left__div {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    min-width: 60%;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  min-width: 60%;
 }
 .right__div {
-    padding-top: 10px;
-   
+  padding-top: 10px;
+ 
 }
 .right__div > p {
-    border-left: 2px solid #00C2E2;
-    padding-left: 25px;
-    font-family: 'Euclid Circular A';
-    font-style: italic;
+  border-left: 2px solid #00C2E2;
+  padding-left: 25px;
+  font-family: 'Euclid Circular A';
+  font-style: italic;
 }
 .under__div {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
 }
 .under__div > a {
-    border-radius: 48px;
-    border: 2px solid #00C2E2;
-    color: #00C2E2;
-    text-decoration: none;
-    width: 289px;
-    margin: 5px !important;
-    height: 44px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Euclid Circular A';
+  border-radius: 48px;
+  border: 2px solid #00C2E2;
+  color: #00C2E2;
+  text-decoration: none;
+  width: 289px;
+  margin: 5px !important;
+  height: 44px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Euclid Circular A';
 
-    transition: 0.5s;
+  transition: 0.5s;
 
-    background-color: inherit;
+  background-color: inherit;
 }
 .under__div > a:hover {
-    background-color: #00C2E2;
-    color: white;
-    transition: 0.5s;
+  background-color: #00C2E2;
+  color: white;
+  transition: 0.5s;
 }
 .servicesAndPrices__text {
-    color:#00C2E2;
-    font-size: 65px;
-    font-weight: 600;
-    font-family: 'Euclid Circular A';
-    
+  color:#00C2E2;
+  font-size: 65px;
+  font-weight: 600;
+  font-family: 'Euclid Circular A';
+  
 }
 #goToUpBtn {
-    background-color: #006784;
-    border-radius: 50%;
-    padding: 10px !important;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    display: none;
-    margin: 10px !important;
-    margin-bottom: 20px !important;
-    border: none;
-    cursor: pointer;
-    z-index: 999;
+  background-color: #006784;
+  border-radius: 50%;
+  padding: 10px !important;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: none;
+  margin: 10px !important;
+  margin-bottom: 20px !important;
+  border: none;
+  cursor: pointer;
+  z-index: 999;
 }
 /* FIRST SECTION STYLES */
 
 #sup {
-    margin-top: 25px !important;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+  margin-top: 25px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
 }
 
 .line {
-    background-color: #00C2E2;
-    border-radius: 8px;
-    height: 2px;
-    margin-top: 10px;
-    width: 80%;
+  background-color: #00C2E2;
+  border-radius: 8px;
+  height: 2px;
+  margin-top: 10px;
+  width: 80%;
 }
 .board__img {
-    width: 100vw;
-    
-    
+  width: 100vw;
+  
+  
 }
 .wave__img {
-    width: 100vw;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
 }
 .img__wrapper {
-    position: relative;
-    margin-top: 30px !important;
+  position: relative;
+  margin-top: 30px !important;
 }
 .first__header {
-    color:#00C2E2;
-    display: flex;
-    font-size: 8vw ;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 15px !important;
-    width: 100%;
-    font-weight: 600;
-    align-items: center;
-    font-family: 'Euclid Circular A';
+  color:#00C2E2;
+  display: flex;
+  font-size: 8vw ;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 15px !important;
+  width: 100%;
+  font-weight: 600;
+  align-items: center;
+  font-family: 'Euclid Circular A';
 }
 .header__number {
-    -webkit-text-stroke: 1px #00C2E2;
-    color: white;
-    margin-right: 40px !important;
+  -webkit-text-stroke: 1px #00C2E2;
+  color: white;
+  margin-right: 40px !important;
 }
 .sup__h1 {
-    
-    background: -webkit-linear-gradient(#00caeb, #0192aa);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    justify-content: center;
-    
-    font-family: 'Euclid Circular A';
+  
+  background: -webkit-linear-gradient(#00caeb, #0192aa);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  justify-content: center;
+  
+  font-family: 'Euclid Circular A';
 }
 .body__wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 85%;
-    margin-top: 20px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 85%;
+  margin-top: 20px !important;
 
 
 }
 .wrapperImages__div {
-    display: flex;
-    margin-top: 20px !important;
-    justify-content: space-between;
-    width: 100%;
-    flex-wrap: wrap;
+  display: flex;
+  margin-top: 20px !important;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
 }
 .wrapperImages__div > img {
-    margin: 5px !important;
+  margin: 5px !important;
 }
 .smallLast__div {
-    display: flex;
-    flex-direction: column;
-    width: 387px;
+  display: flex;
+  flex-direction: column;
+  width: 387px;
 }
 .body__text {
-    font-family: 'Euclid Circular A';
-    font-weight: 400;
-    font-size: 26px;
-    text-align: center;
+  font-family: 'Euclid Circular A';
+  font-weight: 400;
+  font-size: 26px;
+  text-align: center;
 }
 .smallLast__div > p {
-    font-family: 'Euclid Circular A';
-    font-weight: 400;
-    font-size: 16px;
-    color: #00C2E2;
-    font-style: italic;
+  font-family: 'Euclid Circular A';
+  font-weight: 400;
+  font-size: 16px;
+  color: #00C2E2;
+  font-style: italic;
 
-    margin-top: 10px !important;
-    text-align: center;
+  margin-top: 10px !important;
+  text-align: center;
 }
 .info__wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    width: 80%;
-    flex-direction: column;
-    margin-top: 20px !important;
-    justify-content: space-between;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80%;
+  flex-direction: column;
+  margin-top: 20px !important;
+  justify-content: space-between;
 }
 .info__wrapper > div > p {
-    font-family: 'Euclid Circular A';
-    font-size: 16px;
-    font-weight: 400;
-    width: 45%;
+  font-family: 'Euclid Circular A';
+  font-size: 16px;
+  font-weight: 400;
+  width: 45%;
 }
 .infoBtns__wrapper {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 
-    font-family: 'Euclid Circular A';
-    margin-top: 25px !important;
+  font-family: 'Euclid Circular A';
+  margin-top: 25px !important;
 }
 .filled__btn {
-    background-color: #00C2E2;
-    border: 1px solid #00C2E2;
-    border-radius: 50px;
-    width: 200px;
-    height: 55px;
-    padding: 5px !important;
-
-    cursor: pointer;
-    transition: 0.5s;
-    color: white;
+  background-color: #00C2E2;
+  border: 1px solid #00C2E2;
+  border-radius: 50px;
+  width: 200px;
+  height: 55px;
+  display: flex;
+  padding: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.5s;
+  color: white;
 }
+
 .filled__btn:hover {
-    transition: 0.5s;
-    background-color:#008BB2;
-    border: 1px solid #008BB2;
+  transition: 0.5s;
+  background-color:#008BB2;
+  border: 1px solid #008BB2;
 
 }
 .outlined__btn {
-    background-color: white;
-    color: #00C2E2;
-    margin-left: 10px !important;
-    border: 2px solid #00C2E2;
-    border-radius: 50px;
-    width: 200px;
-    padding: 5px !important;
-    height: 55px;
-    cursor: pointer;
-    transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  background-color: white;
+  color: #00C2E2;
+  margin-left: 10px !important;
+  border: 2px solid #00C2E2;
+  border-radius: 50px;
+  width: 200px;
+  padding: 5px !important;
+  height: 55px;
+  cursor: pointer;
+  transition: 0.5s;
 }
 .outlined__btn:hover {
-    transition: 0.5s;
-    background-color:#00C2E2;
-    border: 2px solid #00C2E2;
-    color: white;
+  transition: 0.5s;
+  background-color:#00C2E2;
+  border: 2px solid #00C2E2;
+  color: white;
 
 }
 .body__subText {
-    size: 16px;
-    margin-top: 10px !important;
-    font-family: 'Euclid Circular A';
-    width: 400px;
+  size: 16px;
+  margin-top: 10px !important;
+  font-family: 'Euclid Circular A';
+  width: 400px;
 }
 
 /* SECOND SECTION */
 #gifts {
-    margin-top: 25px !important;
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    
+  margin-top: 25px !important;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  
 }
 
 /* REND SECTION */
 #rent {
-    margin-top: 25px !important;
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    
+  margin-top: 25px !important;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  
 }
 
 .steps__wrapper {
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    margin-top: 15px !important;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 15px !important;
 }
 
 .steps__wrapper > .step__item {
-    display: flex;
-    height: 130px;
-    width: 19%;
-    min-width: 100px;
-    margin: 5px !important;
-    flex-direction: column;
-    justify-content: space-between;
-    font-family: 'Euclid Circular A';
-    padding-left: 10px !important;
-    border-left: 2px solid  #00caeb;
+  display: flex;
+  height: 130px;
+  width: 19%;
+  min-width: 100px;
+  margin: 5px !important;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Euclid Circular A';
+  padding-left: 10px !important;
+  border-left: 2px solid  #00caeb;
 }
 .steps__wrapper > .step__item > span {
-    font-weight: 900;
+  font-weight: 900;
 }
 
 .rentInner__wrapper {
-    display: flex;
-    margin-top: 40px !important;
-    justify-content: space-between;
-    width: 100%;
+  display: flex;
+  margin-top: 40px !important;
+  justify-content: space-between;
+  width: 100%;
 }
 .rentInfo__wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    width: 60%;
-    flex-direction: column;
-    margin-top: 20px !important;
-    justify-content: space-between;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 60%;
+  flex-direction: column;
+  margin-top: 20px !important;
+  justify-content: space-between;
 }
 .leftInnerText__wrapper {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Euclid Circular A';
+  display: flex;
+  flex-direction: column;
+  font-family: 'Euclid Circular A';
 
-    justify-content: space-around;
-    min-height: 330px;
-    margin-top: 10px !important;
+  justify-content: space-around;
+  min-height: 330px;
+  margin-top: 10px !important;
 }
 .leftInnerText__wrapper > div > span {
-    background: -webkit-linear-gradient(#00caeb, #0192aa);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    font-family: 'Euclid Circular A';
-    font-size: 20px;
-    font-weight: 600;
-    margin-right: 15px !important;
+  background: -webkit-linear-gradient(#00caeb, #0192aa);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: 'Euclid Circular A';
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 15px !important;
 }
 .rightInnerText__wrapper {
-    font-family: 'Euclid Circular A';
-    font-style: italic;
-    color: #00C2E2;
-    font-size: 16px;
-    margin-left: 10px !important;
-    margin-top: 120px !important;
-    padding-left: 10px !important;
-    border-left: 2px solid #00C2E2;
+  font-family: 'Euclid Circular A';
+  font-style: italic;
+  color: #00C2E2;
+  font-size: 16px;
+  margin-left: 10px !important;
+  margin-top: 120px !important;
+  padding-left: 10px !important;
+  border-left: 2px solid #00C2E2;
 }
 
 /* HOLIDAYS SECTION */
 #holidays {
-    margin-top: 25px !important;
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
+  margin-top: 25px !important;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* SUP TOURS */
 #sup-tours {
-    margin-top: 25px !important;
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
+  margin-top: 25px !important;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
 }
 .mobile {
-    display: none;
+  display: none;
 }
 /* SERVICES PAGE MOBILE AND TABLE VERSION */
 @media screen and (max-width:460px) {
-    .body__subText {
-        size: 13px;
-        width: 100%;
-    }
+  .body__subText {
+      size: 13px;
+      width: 100%;
+  }
 }
 @media screen and (max-width:540px) {
-    .rightInnerText__wrapper {
-        font-family: 'Euclid Circular A';
-        font-style: italic;
-        color: #00C2E2;
-        font-size: 16px;
-        margin-left: 0 !important;
-        padding: 0 !important;
-        padding-top: 15px !important;
-        border: none;
-    }
-    .rentInner__wrapper {
-        flex-direction: column;
-    }
+  .rightInnerText__wrapper {
+      font-family: 'Euclid Circular A';
+      font-style: italic;
+      color: #00C2E2;
+      font-size: 16px;
+      margin-left: 0 !important;
+      padding: 0 !important;
+      padding-top: 15px !important;
+      border: none;
+  }
+  .rentInner__wrapper {
+      flex-direction: column;
+  }
 }
 @media screen and (max-width:768px) {
-    .steps__wrapper > .step__item > p {
-        font-size: 12px !important;
+  .steps__wrapper > .step__item > p {
+      font-size: 12px !important;
+  }
+
+  .slider{
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+      margin-top: 10px !important;
     }
- 
-    .slider{
-        overflow: hidden;
-        position: relative;
-        width: 100%;
-        margin-top: 10px !important;
-      }
+    
+    .slides {
+      display: flex;
+      transition: transform 0.5s ease;
+    }
+    
+    .body__text {
       
-      .slides {
-        display: flex;
-        transition: transform 0.5s ease;
-      }
-      
-      .body__text {
+      font-size: 20px;
+  }
+    .info__wrapper > div > p {
+      font-family: 'Euclid Circular A';
+      font-size: 16px;
+      font-weight: 400;
+      width: 100%;
+  }
+    .walkText {
+      color: #00C2E2 !important;
+      font-style: italic;
+      font-size: 16px;
+      margin-bottom: 10px !important;
+      font-weight: 400;
+    }
+    
+    .slide {
+      flex: 0 0 100%;
+      min-height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-height: 500px;
+      font-size: 24px;
+    }
+    
+    .navigation {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    
+    .navigation label {
+      cursor: pointer;
+      border-radius: 50%;
+      width: 10px;
+      height: 10px;
+      border: 1px solid #006784;
+      background: white;
+      margin: 4px !important;
+    }
+    
+    .navigation label:hover {
+      background: #006784;
+    }
+    
+    input[type="radio"] {
+      display: none;
+    }
+    
+    #slide1:checked ~ .slides { transform: translateX(0); }
+    #slide2:checked ~ .slides { transform: translateX(-100%); }
+    #slide3:checked ~ .slides { transform: translateX(-200%); }
+    
+    #slide1:checked ~ .navigation label:nth-of-type(1),
+    #slide2:checked ~ .navigation label:nth-of-type(2),
+    #slide3:checked ~ .navigation label:nth-of-type(3) {
+      background: #006784;
+    }
+
         
-        font-size: 20px;
+    #slideGift1:checked ~ .slides { transform: translateX(0); }
+    #slideGift2:checked ~ .slides { transform: translateX(-100%); }
+    
+    #slideGift1:checked ~ .navigation label:nth-of-type(1),
+    #slideGift2:checked ~ .navigation label:nth-of-type(2)
+     {
+      background: #006784;
     }
-      .info__wrapper > div > p {
-        font-family: 'Euclid Circular A';
-        font-size: 16px;
-        font-weight: 400;
-        width: 100%;
+    #slideRent1:checked ~ .slides { transform: translateX(0); }
+    #slideRent2:checked ~ .slides { transform: translateX(-100%); }
+    
+    #slideRent1:checked ~ .navigation label:nth-of-type(1),
+    #slideRent2:checked ~ .navigation label:nth-of-type(2)
+     {
+      background: #006784;
     }
-      .walkText {
-        color: #00C2E2 !important;
-        font-style: italic;
-        font-size: 16px;
-        margin-bottom: 10px !important;
-        font-weight: 400;
-      }
-      
-      .slide {
-        flex: 0 0 100%;
-        min-height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        max-height: 500px;
-        font-size: 24px;
-      }
-      
-      .navigation {
-        display: flex;
-        justify-content: center;
-        margin-top: 20px;
-      }
-      
-      .navigation label {
-        cursor: pointer;
-        border-radius: 50%;
-        width: 10px;
-        height: 10px;
-        border: 1px solid #006784;
-        background: white;
-        margin: 4px !important;
-      }
-      
-      .navigation label:hover {
-        background: #006784;
-      }
-      
-      input[type="radio"] {
-        display: none;
-      }
-      
-      #slide1:checked ~ .slides { transform: translateX(0); }
-      #slide2:checked ~ .slides { transform: translateX(-100%); }
-      #slide3:checked ~ .slides { transform: translateX(-200%); }
-      
-      #slide1:checked ~ .navigation label:nth-of-type(1),
-      #slide2:checked ~ .navigation label:nth-of-type(2),
-      #slide3:checked ~ .navigation label:nth-of-type(3) {
-        background: #006784;
-      }
+    #slideHolidays1:checked ~ .slides { transform: translateX(0); }
+    #slideHolidays2:checked ~ .slides { transform: translateX(-100%); }
+    #slideHolidays3:checked ~ .slides { transform: translateX(-200%); }
 
-          
-      #slideGift1:checked ~ .slides { transform: translateX(0); }
-      #slideGift2:checked ~ .slides { transform: translateX(-100%); }
-      
-      #slideGift1:checked ~ .navigation label:nth-of-type(1),
-      #slideGift2:checked ~ .navigation label:nth-of-type(2)
-       {
-        background: #006784;
-      }
-      #slideRent1:checked ~ .slides { transform: translateX(0); }
-      #slideRent2:checked ~ .slides { transform: translateX(-100%); }
-      
-      #slideRent1:checked ~ .navigation label:nth-of-type(1),
-      #slideRent2:checked ~ .navigation label:nth-of-type(2)
-       {
-        background: #006784;
-      }
-      #slideHolidays1:checked ~ .slides { transform: translateX(0); }
-      #slideHolidays2:checked ~ .slides { transform: translateX(-100%); }
-      #slideHolidays3:checked ~ .slides { transform: translateX(-200%); }
+    
+    #slideHolidays1:checked ~ .navigation label:nth-of-type(1),
+    #slideHolidays2:checked ~ .navigation label:nth-of-type(2),
+    #slideHolidays3:checked ~ .navigation label:nth-of-type(3)
+     {
+      background: #006784;
+    }
 
-      
-      #slideHolidays1:checked ~ .navigation label:nth-of-type(1),
-      #slideHolidays2:checked ~ .navigation label:nth-of-type(2),
-      #slideHolidays3:checked ~ .navigation label:nth-of-type(3)
-       {
-        background: #006784;
-      }
+    #slideTour1:checked ~ .slides { transform: translateX(0); }
+    #slideTour2:checked ~ .slides { transform: translateX(-100%); }
+    
+    #slideTour1:checked ~ .navigation label:nth-of-type(1),
+    #slideTour2:checked ~ .navigation label:nth-of-type(2)
+     {
+      background: #006784;
+    }
+    
+  .right__div > p {
+      border-left: none;
+      padding: 0 !important;
+  }
+  .mobile {
+      display: flex !important;
+  }
+  .wrapperImages__div, .rentInner__wrapper > div >img {
+      display: none;
+  }
+  .rightInnerText__wrapper {
+      margin-top: 0 !important;
+  }
+  .slide > img  {
+      width: 100%;
+      height: 100%;
+      min-height: 100% !important;
+      border-radius: 0px !important;
 
-      #slideTour1:checked ~ .slides { transform: translateX(0); }
-      #slideTour2:checked ~ .slides { transform: translateX(-100%); }
-      
-      #slideTour1:checked ~ .navigation label:nth-of-type(1),
-      #slideTour2:checked ~ .navigation label:nth-of-type(2)
-       {
-        background: #006784;
-      }
-      
-    .right__div > p {
-        border-left: none;
-        padding: 0 !important;
-    }
-    .mobile {
-        display: flex !important;
-    }
-    .wrapperImages__div, .rentInner__wrapper > div >img {
-        display: none;
-    }
-    .rightInnerText__wrapper {
-        margin-top: 0 !important;
-    }
-    .slide > img  {
-        width: 100%;
-        height: 100%;
-        min-height: 100% !important;
-        border-radius: 0px !important;
-
-    }
-    .under__div {
-        margin-top: 20px !important;
-        justify-content: center;
-    }
-    .under__div > a {
-        width: 230px !important;
-    }
-    .services__div {
-        width: 80vw;
-        flex-direction: column;
-        justify-content: flex-start;
-    }
-    .under__div {
-        display: none;
-    }
-   
+  }
+  .under__div {
+      margin-top: 20px !important;
+      justify-content: center;
+  }
+  .under__div > a {
+      width: 230px !important;
+  }
+  .services__div {
+      width: 80vw;
+      flex-direction: column;
+      justify-content: flex-start;
+  }
+  .under__div {
+      display: none;
+  }
+ 
 }
 
 /* GALERY PAGE STYLES */
 @keyframes rot {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
+  0% {
+    transform: rotate(0deg);
   }
-  @-webkit-keyframes rot {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
+  100% {
+    transform: rotate(360deg);
   }
+}
+@-webkit-keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 #gallery {
-    .container {
-      max-width: 1245px;
-      margin: 0 auto;
-      padding: 15px 20px 40px 20px;
-      .heading {
-        h1 {
-          background: -webkit-linear-gradient(#00caeb, #0192aa);
-          -webkit-text-fill-color: transparent;
-          -webkit-background-clip: text;
-          justify-content: center;
-          font-family: "Euclid Circular A";
-          font-size: 100px;
-          font-weight: 600;
+  .container {
+    max-width: 1245px;
+    margin: 0 auto;
+    padding: 15px 20px 40px 20px;
+    .heading {
+      h1 {
+        background: -webkit-linear-gradient(#00caeb, #0192aa);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        justify-content: center;
+        font-family: "Euclid Circular A";
+        font-size: 100px;
+        font-weight: 600;
+      }
+    }
+    .btns-wrapper {
+      padding: 40px 0;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      flex-wrap: wrap;
+      a {
+        cursor: pointer;
+        text-decoration: none;
+        padding: 15px 45px;
+        font-family: "Euclid Circular A";
+        border-radius: 48px;
+        border: 2px solid #00c2e2;
+        color: #00c2e2;
+        background-color: transparent;
+        transition: 0.5s;
+      }
+      a:hover {
+        background-color: #00c2e2;
+        color: white;
+      }
+    }
+    .images-wrapper {
+      display: grid;
+      /* grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(9, 1fr); */
+      grid-column-gap: 10px;
+      grid-row-gap: 10px;
+
+      div {
+        border-radius: 10px!important;
+        overflow: hidden !important;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
         }
       }
-      .btns-wrapper {
-        padding: 40px 0;
+      .img-wrapper-1 {
+        grid-area: 1 / 1 / 2 / 2;
+      }
+      .img-wrapper-2 {
+        grid-area: 1 / 2 / 2 / 3;
+      }
+      .img-wrapper-3 {
+        grid-area: 1 / 3 / 2 / 4;
+      }
+      .img-wrapper-4 {
+        grid-area: 2 / 1 / 3 / 3;
+      }
+      .img-wrapper-5 {
+        grid-area: 2 / 3 / 4 / 4;
+      }
+      .img-wrapper-6 {
+        grid-area: 3 / 2 / 4 / 3;
+      }
+      .img-wrapper-7 {
+        grid-area: 3 / 1 / 4 / 2;
         display: flex;
+        justify-content: center;
         align-items: center;
-        gap: 15px;
-        flex-wrap: wrap;
-        a {
-          cursor: pointer;
-          text-decoration: none;
-          padding: 15px 45px;
-          font-family: "Euclid Circular A";
-          border-radius: 48px;
-          border: 2px solid #00c2e2;
-          color: #00c2e2;
-          background-color: transparent;
-          transition: 0.5s;
+        position: relative;
+        img:first-child {
+            width: 70%;
+            height: 70%;
+            animation: rot 8s linear infinite;
         }
-        a:hover {
-          background-color: #00c2e2;
-          color: white;
+        img:last-child {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); /* Center the image */
+        width: 20%;
+        height: 20%;
         }
       }
-      .images-wrapper {
-        display: grid;
-        /* grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(9, 1fr); */
-        grid-column-gap: 10px;
-        grid-row-gap: 10px;
-  
-        div {
-          border-radius: 10px!important;
-          overflow: hidden !important;
-          img{
-              width: 100%;
-              height: 100%;
-              object-fit: cover;
-              object-position: center;
-          }
+      .img-wrapper-8 {
+        grid-area: 4 / 2 / 5 / 4;
+      }
+      .img-wrapper-9 {
+        grid-area: 4 / 1 / 5 / 2;
+      }
+      .img-wrapper-10 {
+        grid-area: 5 / 1 / 6 / 2;
+      }
+      .img-wrapper-11 {
+        grid-area: 5 / 2 / 6 / 3;
+      }
+      .img-wrapper-12 {
+        grid-area: 5 / 3 / 6 / 4;
+      }
+      .img-wrapper-13 {
+        grid-area: 6 / 1 / 7 / 3;
+      }
+      .img-wrapper-14 {
+        grid-area: 6 / 3 / 8 / 4;
+      }
+      .img-wrapper-15 {
+        grid-area: 7 / 2 / 8 / 3;
+      }
+      .img-wrapper-16 {
+        grid-area: 7 / 1 / 8 / 2;
+      }
+      .img-wrapper-17 {
+        grid-area: 8 / 1 / 9 / 3;
+      }
+      .img-wrapper-18 {
+        grid-area: 8 / 3 / 9 / 4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        img:first-child {
+            width: 70%;
+            animation: rot 8s linear infinite;
+            height: 70%;
         }
-        .img-wrapper-1 {
-          grid-area: 1 / 1 / 2 / 2;
+        img:last-child {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); /* Center the image */
+        width: 20%;
+        height: 20%;
         }
-        .img-wrapper-2 {
-          grid-area: 1 / 2 / 2 / 3;
-        }
-        .img-wrapper-3 {
-          grid-area: 1 / 3 / 2 / 4;
-        }
-        .img-wrapper-4 {
-          grid-area: 2 / 1 / 3 / 3;
-        }
-        .img-wrapper-5 {
-          grid-area: 2 / 3 / 4 / 4;
-        }
-        .img-wrapper-6 {
-          grid-area: 3 / 2 / 4 / 3;
-        }
-        .img-wrapper-7 {
-          grid-area: 3 / 1 / 4 / 2;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          position: relative;
-          img:first-child {
-              width: 70%;
-              height: 70%;
-              animation: rot 8s linear infinite;
-          }
-          img:last-child {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%); /* Center the image */
-          width: 20%;
-          height: 20%;
-          }
-        }
-        .img-wrapper-8 {
-          grid-area: 4 / 2 / 5 / 4;
-        }
-        .img-wrapper-9 {
-          grid-area: 4 / 1 / 5 / 2;
-        }
-        .img-wrapper-10 {
-          grid-area: 5 / 1 / 6 / 2;
-        }
-        .img-wrapper-11 {
-          grid-area: 5 / 2 / 6 / 3;
-        }
-        .img-wrapper-12 {
-          grid-area: 5 / 3 / 6 / 4;
-        }
-        .img-wrapper-13 {
-          grid-area: 6 / 1 / 7 / 3;
-        }
-        .img-wrapper-14 {
-          grid-area: 6 / 3 / 8 / 4;
-        }
-        .img-wrapper-15 {
-          grid-area: 7 / 2 / 8 / 3;
-        }
-        .img-wrapper-16 {
-          grid-area: 7 / 1 / 8 / 2;
-        }
-        .img-wrapper-17 {
-          grid-area: 8 / 1 / 9 / 3;
-        }
-        .img-wrapper-18 {
-          grid-area: 8 / 3 / 9 / 4;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          position: relative;
-          img:first-child {
-              width: 70%;
-              animation: rot 8s linear infinite;
-              height: 70%;
-          }
-          img:last-child {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%); /* Center the image */
-          width: 20%;
-          height: 20%;
-          }
-        }
-        .img-wrapper-19 {
-          grid-area: 9 / 1 / 10 / 2;
-        }
-        .img-wrapper-20 {
-          grid-area: 9 / 2 / 10 / 3;
-        }
-        .img-wrapper-21 {
-          grid-area: 9 / 3 / 10 / 4;
-        }
+      }
+      .img-wrapper-19 {
+        grid-area: 9 / 1 / 10 / 2;
+      }
+      .img-wrapper-20 {
+        grid-area: 9 / 2 / 10 / 3;
+      }
+      .img-wrapper-21 {
+        grid-area: 9 / 3 / 10 / 4;
       }
     }
   }
-  
-  
-  @media screen and (max-width:450px) {
-      #gallery {
-          .container {
-            .heading {
-              h1 {
-                font-size: 80px!important;
-                font-weight: 500!important;
-              }
+}
+
+
+@media screen and (max-width:450px) {
+    #gallery {
+        .container {
+          .heading {
+            h1 {
+              font-size: 80px!important;
+              font-weight: 500!important;
             }
           }
-      }
-  }
-  
-  @media screen and (max-width:346px) {
-      #gallery {
-          .container {
-            .heading {
-              h1 {
-                font-size: 60px!important;
-                font-weight: 400!important;
-              }
+        }
+    }
+}
+
+@media screen and (max-width:346px) {
+    #gallery {
+        .container {
+          .heading {
+            h1 {
+              font-size: 60px!important;
+              font-weight: 400!important;
             }
           }
-      }
-  }
+        }
+    }
+}
