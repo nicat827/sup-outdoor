@@ -59,13 +59,13 @@
             <div class="line"></div>
             <div class="body__wrapper">
                 <p class="body__text">
-                    <span>this is empty text</span>Прогулка – это отличный способ изучать окружающий мир, тренируя тело и наслаждаясь природными удивительными пейзажами! 
+                    <span class="empty-text">this is empty text</span>Прогулка – это отличный способ изучать окружающий мир, тренируя тело и наслаждаясь природными удивительными пейзажами! 
                 </p>
                 <div class="wrapperImages__div">
                     <img src="./images/services/smallFirst.png" style="height: 146px;" />
-                    <img src="./images/services/middleBig.png" style="height: 500px;" />
+                    <img src="./images/services/middleBig.png"  />
                     <div class="smallLast__div">
-                        <img src="./images/services/smallLast.png" style="width: 387px; height: 250px;" />
+                        <img src="./images/services/smallLast.png"  />
                         <p>Длится прогулка от 2 до 3,5 часов в зависимости от выбранного маршрута и локации. Стоимость sup/каяк прогулки от 2200₽.</p>
                     </div>
                 </div>
@@ -109,21 +109,35 @@
             <div class="line"></div>
             <div class="body__wrapper">
                 <p class="body__text">
-                    <span>this is empty text</span>Приходите к нам, чтобы насладиться прогулкой на sup досках и каяках – это идеальный подарок для каждого! 
+                    <span class="empty-text">this is empty text</span>Приходите к нам, чтобы насладиться прогулкой на sup досках и каяках – это идеальный подарок для каждого! 
                 </p>
                 <p class="body__subText">
                     Sup и каяк в состоянии подарить большое количество положительных эмоций, зарядить энергией и дать возможность насладиться невероятной красотой природы! 
                 </p>
                 <div class="wrapperImages__div">
-                    <img src="./images/services/giftSectionBig.png" style="height: 500px; width: 100%; max-width: 793px;" />
+                    <img src="./images/services/giftSectionBig.png"  />
                     <div class="smallLast__div">
-                        <img src="./images/services/giftSectionSmall.png" style="width: 387px; height: 250px;" />
+                        <img src="./images/services/giftSectionSmall.png"  />
                         <p>Два сертификата на выбор: на одного и на двух человек. Стоимость 3000₽ (на одного)/ 6000₽ (на двоих)</p>
                     </div>
                 </div>
-                <div class="slider-container2"></div>
+                 <!-- Swipper slider for table and mobiles -->
+                 <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/services/giftSectionBig.png" id="img1" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/services/giftSectionSmall.png" id="img2" />
+                        </div>
+                        
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
                 <div class="info__wrapper">
-                    <div style="display: flex;">
+                    <div style="display: flex;flex-direction: column;">
+                        <p class="blueP">Два сертификата на выбор: на одного и на двух человек. Стоимость 3000₽ (на одного)/ 6000₽ (на двоих)
+                        </p>
                         <p>Сертификат дает право на одну sup или каяк прогулку - в любое время и день в нашем расписании, бронировать желаемое время нужно заранее через наши социальные сети. Сертификатом можно воспользоваться только в локации Серебряный Бор. Будьте внимательны!</p>
                     </div>
                     <div class="infoBtns__wrapper">
@@ -142,12 +156,23 @@
             <div class="line"></div>
             <div class="body__wrapper">
                 <p class="body__text">
-                    <span>this is empty text</span>Внимание! Если вы никогда не управляли сапом/каяком и хотите покататься, то для вас идеальный вариант - это сап/каяк прогулка. 
+                    <span class="empty-text">this is empty text</span>Внимание! Если вы никогда не управляли сапом/каяком и хотите покататься, то для вас идеальный вариант - это сап/каяк прогулка. 
                 </p>
                 <p class="body__subText">
                     Аренда вне группы для самостоятельной прогулки подходит только для людей, которые уже имели успешный опыт управления доской и умеют:
                 </p>
-                <div class="slider-container3"></div>
+                 <!-- Swipper slider for table and mobiles -->
+                 <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/services/rentSectionFirst.png" id="img1" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/services/rentSectionSecond.png" id="img2" />
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
                 <div class="steps__wrapper">
                     <div class="step__item">
                         <span>01</span>
@@ -184,7 +209,7 @@
                 </div>
                 <div class="rentInner__wrapper">
                     <div style="margin-right: 15px !important;">
-                        <img src="./images/services/rentSectionFirst.png" style="width: 100%; height: 500px;" />
+                        <img src="./images/services/rentSectionFirst.png" width="100%" />
                         <div class="leftInnerText__wrapper">
                             <p>Если вы хотите забронировать сап для самостоятельного сплава и обладаете навыками выше вам следует:</p>
                             <div>
@@ -196,7 +221,7 @@
                         </div>
                     </div>
                     <div>
-                        <img src="./images/services/rentSectionSecond.png" style="height: 400px;width: 100%; max-width: 387px;" />
+                        <img src="./images/services/rentSectionSecond.png" width="100%" />
                             <p class="rightInnerText__wrapper">
                                 Цена аренды = цена прогулки.<br><br> 
                                 Длительность аренды = длительность прогулки по расписанию. <br><br>
@@ -223,33 +248,42 @@
             <div class="line"></div>
             <div class="body__wrapper">
                 <p class="body__text">
-                    <span>this is empty text</span>Мы не просто проводим мероприятие, а подходим к своему делу со всей душой и делаем так, чтобы Ваше времяпровождение было незабываемым!
+                    <span class="empty-text">this is empty text</span>Мы не просто проводим мероприятие, а подходим к своему делу со всей душой и делаем так, чтобы Ваше времяпровождение было незабываемым!
                 </p>
                 <p class="body__subText">
                     Наша команда выступает организаторами на многих крупных городских проектах и выставках. У нас уникальная команда самых опытных инструкторов в России.  Каждое мероприятие уникальное по своей сути, и к каждому клиенту у нас свой подход. 
                     
                 </p>
                 <!-- MOBILE AND TABLE SLIDER -->
-
-                <div id="grid-wrapper">
-                        <div class="img1">
-                            <img src="./images/services/holidaysSection1.png" style="height: 75%;" />
+                 <!-- Swipper slider for table and mobiles -->
+                 <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/services/holidaysSection1.png" id="img1" />
                         </div>
-                        <div class="img2">
-                            <img src="./images/services/holidaysSection2.png"  />
+                        <div class="swiper-slide">
+                            <img src="./images/services/holidaysSection2.png" id="img2" />
                         </div>
-                        <div class="img3">
-                            <img src="./images/services/holidaysSection3.png" style="height: 50%;" />
+                        <div class="swiper-slide">
+                            <img src="./images/services/holidaysSection3.png" id="img2" />
                         </div>
-                        <div class="info__wrapper">
-                            <div style="display: flex;">
-                                <p>Для того, чтобы узнать условия, Вам необходимо связаться с нами, и мы предложим идеальный вариант организации мероприятия, поможем подобрать локацию, разработать план и сориентировать по другим интересующим вас вопросам. </p>
-                            </div>
-                            <div class="infoBtns__wrapper">
-                                <a class="filled__btn">ОСТАВИТЬ ЗАЯВКУ</a>
-                                <a class="outlined__btn">ПОДРОБНЕЕ</a>
-                            </div>                
-                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+              
+                <div class="wrapperImages__div">
+                    <img src="./images/services/holidaysSection1.png" style="height: 146px;" />
+                    <img src="./images/services/holidaysSection2.png"  />
+                    <img src="./images/services/holidaysSection3.png"  />
+                </div>
+                <div class="info__wrapper">
+                    <div style="display: flex;">
+                        <p>Для того, чтобы узнать условия, Вам необходимо связаться с нами, и мы предложим идеальный вариант организации мероприятия, поможем подобрать локацию, разработать план и сориентировать по другим интересующим вас вопросам. </p>
+                    </div>
+                    <div class="infoBtns__wrapper">
+                        <a class="filled__btn">ОСТАВИТЬ ЗАЯВКУ</a>
+                        <a class="outlined__btn">ПОДРОБНЕЕ</a>
+                    </div>                
                 </div>
             </div>
         </section>
@@ -262,12 +296,24 @@
             <div class="line"></div>
             <div class="body__wrapper">
                 <p class="body__text">
-                    <span>this is empty text</span>Вы уже готовы к новым путешествиям? Тогда отправляйтесь покорять новые места вместе с Sup Outdoor! 
+                    <span class="empty-text">this is empty text</span>Вы уже готовы к новым путешествиям? Тогда отправляйтесь покорять новые места вместе с Sup Outdoor! 
                 </p>
                 <p class="body__subText">
                     Авторский тур – это всегда внимание к деталям и индивидуальный подход, мы стараемся учесть все пожелания наших гостей. Небольшие группы и тщательная проработка маршрута позволит Вам почувствовать себя главным героем путешествия. Наша команда имеет огромный опыт в организации и проведении авторских sup туров! Различная длительность – от одного дня до двух недель. Sup тур подходит для любого возраста и вне зависимости от уровня владения sup навыками. 
                 </p>
-                <div class="slider-container5"></div>
+                 <!-- Swipper slider for table and mobiles -->
+                 <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/services/toursSection1.png" id="img1" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/services/toursSection2.png" id="img2" />
+                        </div>
+                       
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
                 <div class="wrapperImages__div">
                     <img src="./images/services/toursSection1.png" style="height: 500px; width: 700px;" />
                     <img src="./images/services/toursSection2.png" style="height: 500px;" />
@@ -292,6 +338,7 @@
             clickable: true,
         },
         });
+        
     </script>
     <script src="./scripts/services.js" ></script>
 </body>
